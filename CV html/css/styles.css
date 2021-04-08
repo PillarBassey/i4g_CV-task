@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+  }
+/* intro   */
+.intro h2{
+    font-size: 70px;
+    margin-bottom: 0;
+}  
+.intro p{
+    font-size: 17px;
+}
+
+.intro .box{
+    float: left;
+    width: 50%;
+    padding: 100px;
+    height: 350px;
+    margin-top: -50px;
+}
+.intro .box ul{
+    list-style-type: none;
+    padding-top: 50px;
+    font-size: 17px;
+}
+.intro .box span{
+    font-weight: bolder;
+}
+/* info */
+.info .box{
+    float: left;
+    width: 50%;
+    padding: 100px;
+    height: 350px;
+}
+
+.info h2{
+    font-size: 17px;
+    margin-bottom: 0;
+    color: #846cfa;
+} 
+.info .box span{
+    color: rgba(61, 59, 59, 0.842);
+}
+.bg{
+    font-weight: bolder;
+    color: black;
+    font-size: 18px;
+}
+
+.info .box ul{
+    list-style-type: none;
+    font-size: 17px;
+    padding: 0;
+}
+.info .box ul li{
+    font-weight: bolder;
+    font-size: 18px;
+}
+ .small{
+    color: rgba(61, 59, 59, 0.842);
+    font-size: 13px;
+}
+.details{
+    color: rgba(61, 59, 59, 0.842);
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+/* exp  */
+.exp .box{
+    float: left;
+    width: 50%;
+    padding: 100px;
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+.exp h2{
+    font-size: 17px;
+    margin-bottom: 0;
+    color: #846cfa;
+} 
+.exp p{
+    margin-bottom:-5px;
+}
+.exp .lighter{
+    font-weight: 500;
+}
+
+                                                /* media query */
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    /* intro   */ 
+.intro .box{
+    padding: 50px;
+    height: 250px;
+}
+.intro h2{
+    font-size: 40px;
+} 
+
+/* info */
+.info .box{
+    padding: 50px;
+    height: 270px;
+}
+
+/* exp  */
+.exp .box{
+    padding:50px;
+    height: 500px;
+}
+}
+@media screen and (max-width: 736px) and (min-width: 320px){
+       /* intro   */ 
+.intro .box{
+    padding: 10px;
+    height: 250px;
+} 
+.intro h2{
+    font-size: 20px;
+} 
+.intro .box{
+    padding: 10px;
+    height: 350px;
+}
+.intro .box ul{
+    padding-top: 50px;
+    font-size: 15px;
+    padding-left: 0;
+}
+        /* info */
+.info .box{
+    padding: 10px;
+    height: 350px;
+}
+
+.info .box ul{
+    list-style-type: none;
+    font-size: 15px;
+    padding: 0;
+}
+/* exp  */
+.exp .box{
+    padding: 10px;
+    height: 350px;
+}
+
+.exp h2{
+    font-size: 15px;
+} 
+}
